@@ -31,7 +31,7 @@ const HomePage = () => {
       </header>
       <section className="grid grid-cols-12">
         <main className="col-span-8 h-full w-full border-r border-gray-300">
-          <div className="flex w-full flex-col space-y-4 px-24 py-10">
+          <div className="flex w-full flex-col space-y-4 px-24 py-10 ">
             <div className="flex w-full items-center space-x-4">
               <label
                 htmlFor="search"
@@ -62,8 +62,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-          </div>
-           <div className="flex w-full items-center justify-around border-b border-gray-300 pb-7">
+           <div className="flex w-full items-center justify-between border-b border-gray-300 pb-10">
             <div>Articles</div>
             <div>
               <button className="flex items-center space-x-2 rounded-3xl border border-gray-500 px-4 py-1.5 font-semibold">
@@ -74,8 +73,11 @@ const HomePage = () => {
               </button>
             </div>
           </div>
+   </div>
+
         </main>
-        <main className="col-span-4">side bar</main>
+
+        <aside className="col-span-4 h-full w-full">side bar</aside>
       </section>
     </div>
   );
