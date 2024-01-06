@@ -63,7 +63,7 @@ const HomePage = () => {
               </div>
             </div>
            <div className="flex w-full items-center justify-between border-b border-gray-300 pb-10">
-            <div>Article</div>
+            <div>Articles</div>
             <div>
               <button className="flex items-center space-x-2 rounded-3xl border border-gray-500 px-4 py-1.5 font-semibold">
                 <div>Following</div>
